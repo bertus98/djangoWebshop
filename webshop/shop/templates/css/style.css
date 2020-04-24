@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+header {
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  background-color: #000;
+}
+header p {
+  display: inline-block;
+}
+header a {
+  color: rgba(0, 0, 0, 0);
+}
+header i {
+  font-size: 28px;
+  vertical-align: middle;
+  margin: 0 0.9114583333%;
+  color: #fff;
+}
+
+#language {
+  margin-left: 40.1041666667%;
+}
+
+.container {
+  width: 55.2083333333%;
+  max-width: 1660px;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.bigProducts {
+  width: 100%;
+  position: relative;
+}
+.bigProducts section {
+  width: 66.320754717%;
+  height: 562px;
+  margin-right: 1.4%;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.bigProducts section figcaption {
+  width: 40.5490753912%;
+  height: 100%;
+  top: 40%;
+  margin-left: 3%;
+  position: absolute;
+}
+.bigProducts section p {
+  font-size: 1.4em;
+  color: #fff;
+}
+.bigProducts section h3 {
+  font-size: 2em;
+  color: #fff;
+}
+.bigProducts article {
+  width: 31.8867924528%;
+  height: 271px;
+  margin-bottom: 15px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.bigProducts figcaption {
+  width: 60.5490753912%;
+  height: 100%;
+  top: 30%;
+  margin-left: 7%;
+  position: absolute;
+}
+.bigProducts p {
+  font-size: 1em;
+  color: #fff;
+}
+.bigProducts h3 {
+  font-size: 1.4em;
+  color: #fff;
+}
+
+h2 {
+  margin: 30px;
+  text-align: center;
+}
+
+.products {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+.products section {
+  width: 23.9622641509%;
+  height: 350px;
+  border: 3px solid #CECECE;
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #000;
+}
+.products img {
+  max-width: 150px;
+  margin: 20px auto;
+  display: block;
+}
+.products h3 {
+  width: 75%;
+  display: block;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0 auto 30px auto;
+}
+.products b {
+  width: 100%;
+  display: block;
+  font-size: 1.4em;
+  text-align: center;
+  display: inline-block;
+}
+
+.vids {
+  width: 100%;
+}
+.vids iframe {
+  width: 48.7735849057%;
+  height: 294px;
+}
+.vids img {
+  width: 48.7735849057%;
+  vertical-align: top;
+  margin-left: 1.35%;
+}
+
+footer {
+  width: 100%;
+  height: 780px;
+  background-color: #000;
+}
+
+.productShow {
+  width: 100%;
+  height: 800px;
+  margin-top: -20px;
+  background-color: #EEEEF0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 515px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  max-height: 106px;
+  max-width: 114px;
+  margin: 0 2px;
+  background-color: #fff;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot .dot img {
+  max-height: 106px;
+  max-width: 114px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
